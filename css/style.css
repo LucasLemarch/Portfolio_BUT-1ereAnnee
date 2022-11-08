@@ -1,0 +1,341 @@
+body{
+	background-color:#E0E0E0;
+	font-family: "Fredoka_One", sans-serif;
+}
+
+/* HEADER */
+header{
+	border: 5px solid #454545;
+	display: flex;
+	background-color: white;
+}	
+
+header img{
+	margin-left: 2%;
+	width: 80%;	
+}
+
+h1{
+	text-align: center;
+	margin: 1%;
+}
+
+.sous-titre{
+	text-align: center;
+	margin-top: 1%;
+}
+
+.date{
+	text-align: right;
+	margin: 2%;
+}
+
+header div:nth-child(1), header div:nth-child(3){
+	flex: 1 1 10%;
+}
+
+header div:nth-child(2){
+	flex: 1 1 80%;
+}
+
+/* FOOTER */
+footer{
+	border: 5px solid #454545;
+	display: flex;
+	padding: 5px;
+	background-color: white;
+	margin-top: 1%;
+}
+
+footer p{
+	margin: 0px;
+}
+
+footer div{
+	flex: auto;
+}
+
+footer div:nth-child(1){
+	text-align: left;
+}
+footer div:nth-child(2){
+	text-align: center;
+}
+footer div:nth-child(3){
+	text-align: right;
+}
+
+/* CORPS ACCUEIL */
+section{
+	margin: 5px;	
+	margin-top: 2%;
+	border-radius: 30px;
+	padding: 1%;	
+	background-color: white;
+}
+
+h2{
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+.taille10{ flex: 1 1 10%; }
+.taille33{ flex: 1 1 33%; }
+.taille80{ flex: 1 1 80%; }
+
+.texte{
+	text-align: justify;
+	margin-left: 30px;
+}
+
+/* section 1 */
+#zone-presentation{
+	display: flex;	
+}
+
+#section1{
+	width:65%;
+	display: flex;
+	flex-direction: column;
+}	
+
+#informations{
+	padding: 10px;
+	display: flex;
+}
+
+#informations div:nth-child(1){width:55%;}
+#informations div:nth-child(2){width:45%;}
+
+#caracteristiques{
+	display:flex;
+}
+
+#caracteristiques div:nth-child(1){width:35%;}
+#caracteristiques div:nth-child(2){width:65%;}
+
+#caracteristiques img{
+	width: 80%;
+	float: right;
+	border-radius: 20px;
+}
+
+#nom{
+	margin-top: 2px;
+	margin-left: 50px;
+}
+
+#caracteristiques li{
+	margin: 3% 0% 3% 0%;
+}
+
+#informations table{
+	border-collapse: collapse;
+}
+
+#informations td, #informations th{
+	border: 1px solid black;
+	width: 40%;
+}
+
+#box-iut{
+	width: 30%;
+	margin-left:2%;
+	margin-top: 2%;
+	border-radius: 30px;
+	padding: 1px;
+}
+
+#image-iut{
+	width: 100%;
+	border-radius: 30px;	
+}
+
+/* section 2 */
+#section2{
+	display: flex;
+}
+
+#section2 img{
+	width: 40%;
+	text-align:center;
+	margin:auto;
+	display:flex;	
+}
+
+/* section 3 */
+#section3{
+	flex-direction: column;
+}
+
+#section3 div:nth-child(1){
+	width: 90%;
+}
+
+#section3 img{
+	width: 80%;
+	text-align:center;
+	margin:auto;
+	display:flex;
+}
+
+#section3 table {
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+}
+
+#section3 table td {
+	width: 10%;
+}
+
+/* FIL D'ARIANE */
+.fil-ariane {
+	width: 100%;
+}
+
+.cadre-fil {
+	margin: 10px;
+	padding: 1%;
+	border: 2px solid #454545;
+	border-radius: 30px;
+	display: inline-block;
+	background-color: white;
+}
+
+/* CORPS LISTES */
+
+.scroll {
+	margin: 4px, 4px;
+	padding: 4px;
+	width: 98%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.scroll img{
+	width: 11%;
+	margin: 0% 2% 0% 2%;
+}
+
+/* COMPETENCES */
+
+.disposition{
+	display: flex;
+}
+
+nav{
+	border: 2px solid #454545;
+	border-radius: 30px;
+	background-color: white;
+	margin: 10px;
+	position: fixed;
+	width: 23%;
+}
+
+.gros-nav{
+	border: 2px solid #454545;
+	border-radius: 30px;
+	background-color: white;
+	margin: 10px;
+	position: fixed;
+	width: 23%;
+	height: 65%;
+	overflow-x: hidden;
+}
+
+nav h2, .gros-nav h2{
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+nav a, .gros-nav a{
+	text-decoration: none; 
+	color: black;
+}
+
+.gauche{
+	width: 25%;
+}
+
+.droite{
+	width: 75%;
+}
+
+h3{
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+.niv1{
+	margin-top: 10px;
+}
+
+.fiche-comp{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	display: flex;
+}
+
+.info-img{
+	margin-top: 5px;
+	text-align: center;
+	color: #454545;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.box-illustration{
+	width: 50%;
+}
+
+.box-illustration img{
+	width: 90%;
+	border: 1px solid black;
+	text-align: center;
+	margin: auto;
+	display: flex;
+}
+
+.image-illustration{
+	width: 70%;
+	border: 1px solid black;
+	text-align: center;
+	margin: auto;
+	display: flex;
+}
+.image-illustration-reduite{
+	width: 50%;
+	border: 1px solid black;
+	text-align: center;
+	margin: auto;
+	display: flex;
+}
+
+.notes{
+	width: 95%;
+	border: 1px solid black;
+	text-align:center;
+	margin:auto;
+	display:flex;
+}
+
+.liste{
+	text-align: center;
+}
+
+/* Projets */
+.dossier{
+	width: 80%;
+	height: 500px;
+	text-align: center;
+	margin: auto;
+	display: flex;
+}
+
+.lien-intranet{
+	margin-left: 30px;
+}
